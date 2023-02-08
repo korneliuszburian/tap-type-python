@@ -22,6 +22,6 @@ A typing game to test your typing speed and accuracy.
 ## 📖 Documentation 📖
 See the `README.md` file for more information.
 
-### 📃 License 📃
+## 📃 License 📃
 This project is licensed under the terms of the MIT license. See the `LICENSE` file for more information.
 
