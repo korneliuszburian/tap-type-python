@@ -1,7 +1,7 @@
 # 💻 TapType Game 💻
 <p> A typing game to test your typing speed and accuracy. </p>
 
-<div align="center">
+<div align="left">
   <img width="25%" height="25%" src="screenshots/1.png">
 </div>
 
