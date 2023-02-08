@@ -3,6 +3,7 @@ import tkinter as tk
 import time
 import pygame
 import sys
+from tkinter import ttk
 
 
 """
@@ -114,7 +115,13 @@ class FastTypeGame:
         # self.background_label = tk.Label(self.window, image=self.background_image)
         # self.background_label.place(x=0, y=0, relwidth=1, relheight=1)
         
-        self.word_label = tk.Label(self.window, text="", font=("Helvetica", 40))
+        self.game_name_label = tk.Label(self.window, text="💻 TapType Game 💻", font=("Helvetica", 37))
+        self.game_name_label.pack(pady=30)
+
+        self.separator = ttk.Separator(self.window, orient='horizontal')
+        self.separator.pack(fill='x')
+
+        self.word_label = tk.Label(self.window, text="", font=("Helvetica", 35))
         self.word_label.pack(pady=30)
 
         self.input_field = tk.Entry(self.window, font=("Helvetica", 25))
