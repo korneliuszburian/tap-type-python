@@ -110,9 +110,9 @@ class FastTypeGame:
 
     def init_ui(self) -> None:
         # Setup UI
-        self.background_image = tk.PhotoImage(file="background\\background.png")
-        self.background_label = tk.Label(self.window, image=self.background_image)
-        self.background_label.place(x=0, y=0, relwidth=1, relheight=1)
+        # self.background_image = tk.PhotoImage(file="background\\background.png")
+        # self.background_label = tk.Label(self.window, image=self.background_image)
+        # self.background_label.place(x=0, y=0, relwidth=1, relheight=1)
         
         self.word_label = tk.Label(self.window, text="", font=("Helvetica", 40))
         self.word_label.pack(pady=30)
