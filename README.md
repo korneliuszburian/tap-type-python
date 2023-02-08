@@ -1,6 +1,7 @@
 # 💻 TapType Game 💻
 A typing game to test your typing speed and accuracy.
-![Game](/screenshots/1.png)
+
+<img align="left" width="100" height="100" src="screenshots/1.png">
 
 ## 📋 Features 📋
 * Test your typing speed and accuracy.
