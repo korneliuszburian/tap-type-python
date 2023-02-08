@@ -1,4 +1,4 @@
-# 💻 TapType Game 💻
+<center> # 💻 TapType Game 💻 </center>
 <div align="center">
   <p> A typing game to test your typing speed and accuracy. </p>
   <img width="25%" height="25%" src="screenshots/1.png">
