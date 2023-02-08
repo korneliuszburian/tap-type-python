@@ -41,7 +41,7 @@ Methods:
         Initializes the window, loads words and calls init_ui()
 
     load_words(self) -> None
-        Loads words from text.txt file and adds them to the words list
+        Loads words from words.txt file and adds them to the words list
 
     init_ui(self) -> None
         Sets up the UI elements and starts the game
@@ -105,7 +105,7 @@ class FastTypeGame:
         self.window.mainloop()
 
     def load_words(self) -> None:
-        with open("text.txt", "r") as f:
+        with open("words.txt", "r") as f:
             self.words = f.read().splitlines()
 
     def init_ui(self) -> None:
